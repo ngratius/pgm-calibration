@@ -1,0 +1,8 @@
+{
+    "habitat_ok": {"method": "capped_linear", "params": [0.1, 0.8, [0.05, 0.95]]},
+    "habitat_ko": {"method": "capped_linear", "params": [-0.2, 0.9, [0.05, 0.95]]},
+    "vehicle_ok": {"method": "capped_linear", "params": [0.2, 0.8, [0.05, 0.95]]},
+    "vehicle_ko": {"method": "capped_linear", "params": [-0.4, 0.9, [0.05, 0.95]]},
+    "docked_ok": {"method": "capped_linear_2d", "params": [-2, -1, 0]},
+    "docked_ko": {"method": "capped_linear_2d", "params": [-1, -2, 0]}
+}

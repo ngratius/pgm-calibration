@@ -1,0 +1,21 @@
+{
+    "habitat_ko": 0.2,
+    "vehicle_ko":
+        {
+            "habitat_ko": 0.4,
+            "habitat_ok": 0.2
+        },
+    "docked_ko":
+        {
+            "habitat_ko": 
+            {
+                "vehicle_ko": 0.7,
+                "vehicle_ok": 0.55
+            },
+            "habitat_ok": 
+            {
+                "vehicle_ko": 0.4,
+                "vehicle_ok": 0.1
+            }
+        }
+}
